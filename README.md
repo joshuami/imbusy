@@ -6,16 +6,15 @@ If you manage several calendar accounts (different clients, different employers,
 Microsoft 365 side by side), a meeting on one of them leaves you looking free on the others.
 imbusy fixes that: whenever an event lands on one calendar in a configured set, it places a
 "Hold" at the same time on every other calendar in the set. Reschedule or cancel the event and
-the holds follow. Nothing about the event itself is copied, so nothing about one client ever
-appears on another client's calendar.
+the holds follow. By default nothing about the event itself is copied, so nothing about one
+client ever appears on another client's calendar. If you want one calendar that shows your whole
+day, a single calendar of your choosing can opt in to receiving full copies instead, with the
+source's title, location, links and notes; see "Detailed copies on one calendar".
 
 It works entirely through the accounts you have already added in **System Settings > Internet
 Accounts**, using Apple's EventKit framework. No OAuth grants, no tenant admin approval, no
 third-party services. Holds are ordinary events, so they sync to the servers the same way
 anything you create in Calendar.app does.
-
-Optionally, one calendar can receive full copies instead of bare holds, so that a single calendar
-shows everything you have on. See "Detailed copies on one calendar".
 
 ## How it works
 

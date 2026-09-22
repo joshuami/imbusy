@@ -1,0 +1,28 @@
+{
+  "calendars": [
+    {
+      "account": "Client One (Google)",
+      "calendar": "Calendar",
+      "label": "One"
+    },
+    {
+      "account": "Client Two (Microsoft)",
+      "calendar": "Calendar",
+      "label": "Two"
+    },
+    {
+      "account": "Personal",
+      "calendar": "Work",
+      "receivesDetails": false
+    }
+  ],
+  "holdTitle": "Hold",
+  "lookaheadDays": 30,
+  "skipAllDay": true,
+  "skipTentative": false,
+  "skipUnaccepted": false,
+  "skipTitleKeywords": [
+    "New Event"
+  ],
+  "mergeOverlappingHolds": false
+}

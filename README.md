@@ -49,7 +49,7 @@ changes made on other devices.
 ## Install
 
 ```sh
-git clone https://github.com/<you>/imbusy.git
+git clone https://github.com/joshuami/imbusy.git
 cd imbusy
 scripts/install.sh
 ```
